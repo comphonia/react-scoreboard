@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Provider} from './Context'
 import Header from './Header'
 import Player from './Player'
 import AddPlayerForm from './AddPlayerForm'
@@ -8,7 +9,7 @@ class App extends Component {
   state = {
     players: [
       {
-        name: "Guil",
+        name: "Mark",
         score: 0,
         id: 1
       },
@@ -23,7 +24,7 @@ class App extends Component {
         id: 3
       },
       {
-        name: "James",
+        name: "Alex",
         score: 0,
         id: 4
       }
@@ -76,6 +77,7 @@ class App extends Component {
     const highScore = this.getHighScore();
     console.log(highScore)
     return (
+      <Provider value={this.state.players}>
       <div className="scoreboard">
         <Header 
           title="Scoreboard" 
@@ -97,6 +99,7 @@ class App extends Component {
         )}
         <AddPlayerForm addPlayer={this.handleAddPlayer}/>
       </div>
+      </Provider>
     );
   }
 }
