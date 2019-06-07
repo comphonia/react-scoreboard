@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-scoreboard/static/css/main.140df8a8.chunk.css",
+    "main.js": "/react-scoreboard/static/js/main.42764436.chunk.js",
+    "main.js.map": "/react-scoreboard/static/js/main.42764436.chunk.js.map",
+    "runtime~main.js": "/react-scoreboard/static/js/runtime~main.d9728706.js",
+    "runtime~main.js.map": "/react-scoreboard/static/js/runtime~main.d9728706.js.map",
+    "static/js/2.a5adb38c.chunk.js": "/react-scoreboard/static/js/2.a5adb38c.chunk.js",
+    "static/js/2.a5adb38c.chunk.js.map": "/react-scoreboard/static/js/2.a5adb38c.chunk.js.map",
+    "index.html": "/react-scoreboard/index.html",
+    "precache-manifest.197250070f0bbd70873fefb7da811702.js": "/react-scoreboard/precache-manifest.197250070f0bbd70873fefb7da811702.js",
+    "service-worker.js": "/react-scoreboard/service-worker.js",
+    "static/css/main.140df8a8.chunk.css.map": "/react-scoreboard/static/css/main.140df8a8.chunk.css.map"
+  }
+}
